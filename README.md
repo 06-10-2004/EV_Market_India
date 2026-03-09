@@ -51,6 +51,18 @@ The project is organized into multiple modules to manage different stages of the
 
 The Streamlit dashboard provides visual analysis including:
 
+- EV adoption by region
+- Metro vs Non-Metro adoption comparison
+- EV price distribution
+- EV range analysis
+- Premium vs non-premium EV comparison
+- States with lowest EV adoption
+- EV price trends over time
+
+---
+
+#### Key Insights and Business Impact
+
 | Insight | Value / Observation |
 |-------|----------------------|
 | Non-Metro areas account for most adoption | 82.1% of EVs are in Non-Metro areas → need for infrastructure expansion |
@@ -58,17 +70,6 @@ The Streamlit dashboard provides visual analysis including:
 | Average EV price: ₹45 lakh (affordability barrier) | High prices highlight affordability issues |
 | Battery range demand balanced (High / Medium / Low) | High: 33.8%, Medium: 33.8%, Low: 32.4% |
 | States with low adoption indicate infrastructure gaps | Delhi: 4,143; Kerala: 8,217; Andhra Pradesh: 8,528 |
-
----
-
-#### Key Insights and Business Impact
-
-- Non-Metro areas account for the majority of EV adoption
-- South India shows the highest EV adoption
-- East India has relatively lower EV adoption
-- Average EV price indicates affordability challenges
-- Balanced demand across high, medium, and low battery range categories
-- Certain states show infrastructure gaps affecting EV adoption
 
 ---
 
