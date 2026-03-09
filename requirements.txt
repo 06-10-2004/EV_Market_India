@@ -3,5 +3,6 @@ pandas
 numpy
 matplotlib
 seaborn
-plotly
-mysql-connector-python
+pyodbc
+pillow
+colorama
