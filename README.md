@@ -1,5 +1,7 @@
 #### EV Market India – Data Pipeline & Analytics Dashboard
 PPT LINK ---> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
+---
+
 This project analyzes Electric Vehicle (EV) adoption trends in India using a complete data pipeline and an interactive analytics dashboard. The system processes raw EV datasets, performs data cleaning and feature engineering, stores the data in a structured SQL database, and visualizes key insights using a Streamlit dashboard.
 
 ---
