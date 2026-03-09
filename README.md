@@ -81,6 +81,3 @@ trends by region or state
 - Computer Vision:
 Analyze images of EV models for features, design, or safety
 compliance
-- Infrastructure Planning:
-Combine EV data with charging station locations to
-optimize network placemen
