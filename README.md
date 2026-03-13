@@ -1,87 +1,81 @@
 # EV Market India – Data Pipeline & Analytics Dashboard
-PPT LINK ---> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
+PPT LINK --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
+   
 ---
-EV PROJECT VIDEO [Demo] --> https://github.com/06-10-2004/EV_Market_India/blob/main/Project%20Video.mp4
----
-
-This project analyzes Electric Vehicle (EV) adoption trends in India using a complete data pipeline and an interactive analytics dashboard. The system processes raw EV datasets, performs data cleaning and feature engineering, stores the data in a structured SQL database, and visualizes key insights using a Streamlit dashboard.
-
+EV PROJECT VIDEO [Demo] --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20in%20India.mp4
 ---
 
-#### Project Objective
+# ⚡ EV Data Analytics & Dashboard Project
 
-The objective of this project is to build an end-to-end ETL[Extract, Transform, Load] data pipeline that processes EV market data and provides meaningful insights through visual analytics via production level Streamlit Dashboard webapp.
+## 1. Introduction
+The Electric Vehicle (EV) industry is growing rapidly as countries focus on reducing carbon emissions and promoting sustainable transportation.  
+This project analyzes EV adoption trends across India, pricing and driving range preferences, and generates actionable insights for policymakers, manufacturers, and infrastructure planners.
 
----
+## 2. Project Objective
+Build a **comprehensive end-to-end EV data analytics pipeline and interactive dashboard** to monitor and analyze EV adoption trends in India. The project lifecycle includes:
+- Data Cleaning
+- Feature Engineering
+- SQL Data Warehouse Loading
+- Analytics & Insights
+- Interactive Dashboard Visualization
 
-#### Tools and Technologies Used
-
-- Python
-- Pandas
-- Logging, Time, Sys, OS
+## 3. Tools and Technologies Used
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Streamlit, PyODBC)
 - SQL Server
-- Matplotlib
-- Seaborn
-- Streamlit
-- Git & GitHub
+- Power BI / Streamlit Dashboard
+- Libraries for data cleaning and visualization
 
----
+## 4. Business Problem
+As the EV market grows, companies and policymakers struggle to make informed decisions due to limited insights.  
+Challenges include:
+- Lack of clarity on **high and low adoption regions**
+- Limited insights on **pricing trends and affordability**
+- Unclear **driving range preferences**
+- Uneven **demand across range categories**
+- Difficulty planning **charging infrastructure and market strategies**
 
-#### Business Problem
+## 5. Target Audience
+- Government / Policy Makers  
+- EV Manufacturing Companies  
+- Infrastructure Planners  
+- Market Analysts / Researchers
 
-The rapid growth of Electric Vehicles requires better understanding of regional adoption trends, price affordability, battery range demand, and infrastructure gaps. Without proper analysis, policymakers and companies cannot effectively plan EV infrastructure or market strategies.
+## 6. System Architecture
+The system captures data from multiple sources, processes it via an ETL pipeline, stores it in a SQL data warehouse, and provides an interactive dashboard for analysis.
 
----
+## 7. Data Pipeline Organisation
 
-#### Data Pipeline Architecture
+D:\Desktop\Electric_Vehicle
+├── EV_Datasets # Raw CSV data files
+├── cleaned_data # Cleaned datasets after preprocessing
+├── feature_engineer # Feature-engineered datasets
+├── Ev_python_file # Python scripts for cleaning, feature engineering, SQL loading, dashboard
+├── SQL - DB # SQL scripts: Data warehouse, analytics queries
+├── virtuaenv # Python virtual environment
+└── .idea # IDE project files
 
-The project follows a structured ETL pipeline:
 
-1. Data Extraction from EV datasets
-2. Data Cleaning and Validation to handle missing values and inconsistencies
-3. Feature Engineering to create additional analytical variables
-4. Loading processed data into a SQL Data Warehouse star schema
-5. Visualization through a production level Streamlit dashboard
+## 8. Data Analysis & Key Insights
+**Insights Generated in the Project:**
+- Metro vs Non-Metro adoption trends  
+- Regional adoption differences  
+- EV range vs price category analysis  
+- High-Range EV penetration  
+- Vehicle age and safety trends  
+- Top EV models by price  
 
----
+## 9. Key Insights & Business Impact
+- **EV adoption is higher in non-metro areas (82.1%)** → Need to expand charging stations  
+- **East region has the lowest adoption (26,033 vehicles)** → Targeted incentives and awareness programs  
+- **Average EV price ~₹2.7 lakh** → Focus on affordable EV models  
+- **Non-metro users prefer slightly higher range (~298.9 km)** → Design higher range EVs for non-metro areas  
+- **Medium and High-range EVs (33.8% each)** → Balanced demand based on price and range
 
-#### Project Organization and Purpose
+## 10. Future Enhancements
+- **Predictive Modeling:** Forecast EV adoption trends by region or state  
+- **Computer Vision:** Analyze EV images for design or safety  
+- **Infrastructure Planning:** Combine EV data with charging station locations to optimize placement
 
-The project is organized into multiple modules to manage different stages of the data pipeline including data cleaning, feature engineering, database loading, and visualization.
-
----
-
-#### Data Analysis and Insights
-
-The Streamlit dashboard provides visual analysis including:
-
-- EV adoption by region
-- Metro vs Non-Metro adoption comparison
-- EV price distribution
-- EV range analysis
-- Premium vs non-premium EV comparison
-- States with lowest EV adoption
-- EV price trends over time
-
----
-
-#### Key Insights and Business Impact
-
-| Insight | Value / Observation |
-|-------|----------------------|
-| Non-Metro areas account for most adoption | 82.1% of EVs are in Non-Metro areas → need for infrastructure expansion |
-| South India leads adoption; East India lags | South: 51,995 vehicles, East: 26,033 vehicles |
-| Average EV price: ₹45 lakh (affordability barrier) | High prices highlight affordability issues |
-| Battery range demand balanced (High / Medium / Low) | High: 33.8%, Medium: 33.8%, Low: 32.4% |
-| States with low adoption indicate infrastructure gaps | Delhi: 4,143; Kerala: 8,217; Andhra Pradesh: 8,528 |
-
----
-
-#### Future Enhancements
-
-- Predictive Modeling:
-Use machine learning to forecast EV adoption
-trends by region or state
-- Computer Vision:
-Analyze images of EV models for features, design, or safety
-compliance
+## 11. Conclusion
+This project developed an **end-to-end EV analytics pipeline**, from data cleaning to interactive dashboard visualization.  
+The insights help policymakers, manufacturers, and businesses make **data-driven decisions** to improve EV infrastructure, pricing strategy, and adoption across India.
