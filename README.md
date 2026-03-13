@@ -42,14 +42,14 @@ The system captures data from multiple sources, processes it via an ETL pipeline
 
 ## 7. Data Pipeline Organisation
 
-D:\Desktop\Electric_Vehicle
+'''D:\Desktop\Electric_Vehicle
 ├── EV_Datasets         # Raw CSV data files
 ├── cleaned_data        # Cleaned datasets after preprocessing
 ├── feature_engineer    # Feature-engineered datasets
 ├── Ev_python_file      # Python scripts for cleaning, feature engineering, SQL loading, dashboard
 ├── SQL - DB            # SQL scripts: Data warehouse, analytics queries
 ├── virtuaenv           # Python virtual environment
-└── .idea               # IDE project files
+└── .idea               # IDE project files'''
 
 ## 8. Data Analysis & Key Insights
 **Insights Generated in the Project:**
