@@ -1,11 +1,8 @@
 # EV Market India – Data Pipeline & Analytics Dashboard
 PPT LINK --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
-   
 ---
 EV PROJECT VIDEO [Demo] --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20in%20India.mp4
 ---
-
-# ⚡ EV Data Analytics & Dashboard Project
 
 ## 1. Introduction
 The Electric Vehicle (EV) industry is growing rapidly as countries focus on reducing carbon emissions and promoting sustainable transportation.  
