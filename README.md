@@ -1,7 +1,7 @@
 # EV Market India – Data Pipeline & Analytics Dashboard
-PPT LINK --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
+** PPT LINK --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20In%20India.pdf
 ---
-EV PROJECT VIDEO [Demo] --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20in%20India.mp4
+** EV PROJECT VIDEO [Demo] --> https://github.com/06-10-2004/EV_Market_India/blob/main/Electric%20Vehicle%20in%20India.mp4
 ---
 
 ## 1. Introduction
@@ -43,25 +43,23 @@ The system captures data from multiple sources, processes it via an ETL pipeline
 ## 7. Data Pipeline Organisation
 
 D:\Desktop\Electric_Vehicle
-├── EV_Datasets # Raw CSV data files
-├── cleaned_data # Cleaned datasets after preprocessing
-├── feature_engineer # Feature-engineered datasets
-├── Ev_python_file # Python scripts for cleaning, feature engineering, SQL loading, dashboard
-├── SQL - DB # SQL scripts: Data warehouse, analytics queries
-├── virtuaenv # Python virtual environment
-└── .idea # IDE project files
-
+├── EV_Datasets         # Raw CSV data files
+├── cleaned_data        # Cleaned datasets after preprocessing
+├── feature_engineer    # Feature-engineered datasets
+├── Ev_python_file      # Python scripts for cleaning, feature engineering, SQL loading, dashboard
+├── SQL - DB            # SQL scripts: Data warehouse, analytics queries
+├── virtuaenv           # Python virtual environment
+└── .idea               # IDE project files
 
 ## 8. Data Analysis & Key Insights
 **Insights Generated in the Project:**
 - Metro vs Non-Metro adoption trends  
 - Regional adoption differences  
 - EV range vs price category analysis  
-- High-Range EV penetration  
-- Vehicle age and safety trends  
+- High-Range EV penetration    
 - Top EV models by price  
 
-## 9. Key Insights & Business Impact
+## 9. Business Impact
 - **EV adoption is higher in non-metro areas (82.1%)** → Need to expand charging stations  
 - **East region has the lowest adoption (26,033 vehicles)** → Targeted incentives and awareness programs  
 - **Average EV price ~₹2.7 lakh** → Focus on affordable EV models  
